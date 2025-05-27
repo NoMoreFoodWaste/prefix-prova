@@ -1,0 +1,11 @@
+name: Node.js CI (reusable)
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  call-core-build:
+    uses: leopie/NoMoreFoodWaste/.github/workflows/reusable-simple-workflow.yml@main
+    with:
+      name: PIPPO
