@@ -6,6 +6,6 @@ on:
 
 jobs:
   call-core-build:
-    uses: leopie/NoMoreFoodWaste/.github/workflows/reusable-simple-workflow.yml@main
+    uses: leopie/NoMoreFoodWaste/utility/.github/workflows/reusable-simple-workflow.yml@main
     with:
       name: PIPPO
