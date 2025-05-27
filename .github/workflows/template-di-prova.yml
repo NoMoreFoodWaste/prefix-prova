@@ -1,16 +1,15 @@
-name: Node.js CI (reusable)
+name: "Node.js CI (reusable)"
 
 description: >
-  Esegue il build standard usando il reusable workflow `Core Build`.
+  "Esegue il build standard usando il reusable workflow `Core Build`."
 
 body:
-  # Questo sarà il file effettivamente copiado in ciascun repo:
   on:
     push:
       branches: [ main ]
 
   jobs:
     call-core-build:
-      uses: NoMoreFoodWaste/.github/workflows/reusable-simple-workflow.yml@main
+      uses: leopie/NoMoreFoodWaste/.github/workflows/reusable-simple-workflow.yml@main
       with:
         name: "PIPPO"
